@@ -29,3 +29,5 @@ Route::get('feed', function() {
 	dd($_ENV);
 
 });
+
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

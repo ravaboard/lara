@@ -26,6 +26,6 @@ Route::post('{username}/upload', 'UploadController@profileImage');
 
 Route::get('feed', function() {
 	
-	
+	dd($_ENV);
 
 });
